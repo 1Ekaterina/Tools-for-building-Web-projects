@@ -1,0 +1,9 @@
+.datecalc{
+    display: none;
+}
+.taimer{
+    display: none;
+}
+.active {
+    display: block;
+}

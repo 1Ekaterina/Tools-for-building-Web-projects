@@ -1,0 +1,31 @@
+{
+  "name": "tools-for-building-web-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Ekaterina/Tools_for_building_Web-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Ekaterina/Tools_for_building_Web-projects/issues"
+  },
+  "homepage": "https://github.com/1Ekaterina/Tools_for_building_Web-projects#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
